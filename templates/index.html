@@ -1,0 +1,37 @@
+
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOGIN</title>
+        {% load static %}
+ <link rel="stylesheet" href="{%static 'index.css'%}">
+        
+    </head>
+    <body>
+        <div class="box">
+            <form method="POST">
+                <h1>LOGIN</h1>
+                <div class="ibox">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" placeholder="Enter Username" required />
+                </div>
+                <div class="ibox">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" placeholder="Enter Password" required />
+                </div>
+                <div class="sbutton"><button type="submit" class="">LOGIN</button></div>
+                <div class="register"><p>Don't have an account?
+                    <a href="#">SignUp</a></p>
+                </div
+            </form>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+    </html>
+    
