@@ -1,0 +1,13 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+.text h1{ 
+   font-family: "Brush Script MT"; 
+   font-size: 3.5em;
+   color: #0ef;
+}
+
